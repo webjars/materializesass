@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>materializesass</artifactId>
-    <version>0.98.3-SNAPSHOT</version>
+    <version>0.99.0-SNAPSHOT</version>
     <name>Materialize Sass</name>
     <description>WebJar for Materialize Sass</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.url>http://materializecss.com/bin/materialize-src-v${version.unsnapshot}.zip</upstream.url>
+        <upstream.url>https://github.com/Dogfalo/materialize/releases/download/v${version.unsnapshot}/materialize-src-v${version.unsnapshot}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
             {
