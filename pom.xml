@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>materializesass</artifactId>
-    <version>0.100.2-SNAPSHOT</version>
+    <version>0.100.2</version>
     <name>Materialize Sass</name>
     <description>WebJar for Materialize Sass</description>
     <url>http://webjars.org</url>
@@ -45,7 +45,7 @@
         <url>http://github.com/webjars/materializesass</url>
         <connection>scm:git:https://github.com/webjars/materializesass.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/materializesass.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>materializesass-0.100.2</tag>
     </scm>
     
     <build>
